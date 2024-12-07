@@ -7,6 +7,7 @@
 </head>
 
 <body>
+	<form method="post">
     <label for="name">Name</label>
 	<input placeholder="Name" type="text" id="name" required></input>
 
@@ -19,6 +20,7 @@
 	<label for="gender_f"></label>
 	<input  type="radio" id="gender_f" name="gender"required>Female</input>
 
+		<label for="cars">Select a Car</label>
 	<select placeholder="--Please choose an option--" type="select" id="cars" required>
 		<option>BMW</option>
 		<option>audi</option>
@@ -40,6 +42,8 @@
 	<label for="tos">I agree to the TOS</label>
 	<input type="checkbox" id="tos" required></input>
 
+	<button type="submit">Submit</button>
+	</form>
 	
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
